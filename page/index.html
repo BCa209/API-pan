@@ -3,26 +3,55 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Análisis Apriori</title>
+    <title>Análisis de Datos</title>
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
     <div class="container">
-        <h1>🛒 Análisis de Reglas de Asociación</h1>
+        <h1>📊 Análisis de Datos - K-Means</h1>
         
-        <div class="input-group">
-            <label for="apiUrl">URL del API:</label>
-            <input type="text" id="apiUrl" value="http://127.0.0.1:8000/apriori/resultados/16-07-2025?periodo=dia" placeholder="Ingresa la URL del endpoint">
+        <!-- Sección para K-Means POST -->
+        <div class="section">
+            <h2>Guardar Datos de Venta (POST)</h2>
+            <div class="input-group">
+                <label for="kmeansPostUrl">URL para guardar:</label>
+                <input type="text" id="kmeansPostUrl" value="http://10.55.114.186:8000/kmeans/guardar" placeholder="URL del endpoint POST">
+            </div>
+            
+            <div class="input-group">
+                <label for="kmeansPostData">Datos de Venta (JSON):</label>
+                <textarea id="kmeansPostData" rows="6">{
+    "venta_id": 1490,
+    "hora": 18,
+    "dia_semana": 5,
+    "id_producto": 14,
+    "cantidad": 3,
+    "precio_total": 15
+}</textarea>
+            </div>
+            
+            <button class="btn-post" onclick="guardarDatosKmeans()">
+                <span id="buttonTextKmeansPost">Guardar Datos (POST)</span>
+                <span id="loadingSpinnerKmeansPost" class="loading" style="display: none;"></span>
+            </button>
         </div>
+        
+        <!-- ... (código anterior se mantiene) ... -->
 
-        <button onclick="obtenerResultadosApriori()">
-            <span id="buttonText">Obtener Resultados</span>
-            <span id="loadingSpinner" class="loading" style="display: none;"></span>
-        </button>
-        
-        <button onclick="probarConexion()">Probar Conexión</button>
-        
-        <button onclick="limpiarResultados()">Limpiar Resultados</button>
+<div class="section">
+    <h2>Obtener Resultados Clusterizados (GET)</h2>
+    <div class="input-group">
+        <label for="kmeansGetUrl">URL del endpoint:</label>
+        <input type="text" id="kmeansGetUrl" value="http://10.55.114.186:8000/kmeans/clusterizados" placeholder="URL del endpoint GET">
+    </div>
+    
+    <button class="btn-get" onclick="obtenerResultadosClusterizados()">
+        <span id="buttonTextKmeansGet">Obtener Clusterizados</span>
+        <span id="loadingSpinnerKmeansGet" class="loading" style="display: none;"></span>
+    </button>
+</div>
+
+<!-- ... (resto del código se mantiene) ... -->
 
         <div id="status" class="status" style="display: none;"></div>
         

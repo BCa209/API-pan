@@ -20,24 +20,31 @@ api-pan/
 ├── app/
 │   ├── main.py
 │   ├── models/
-│   │   └── input_schema.py	(kmeans aun sin uso)
+│   │   └── input_schema.py	
 │   │   └── venta_schema.py
 │   │   └── database.py
 │   │   └── venta_model.py
+│   │   └── kmeans_model.py
 │   ├── services/
 │   │   ├── apriori_service.py  
-│   │   └── kmeans_service.py   (kmeans aun sin uso)
+│   │   └── kmeans_service.py   
+│   │   └── kmeans_db.py   
 │   ├── routes/
-│   │   └── predict.py          (kmeans aun sin uso)
 │   │   └── apriori.py          
+│   │   └── prediccion.py          
+│   │   └── kmeans.py          
+│   │   └── kmeans_routes.py          
 │   ├── utils/
-│   │   ├── onnx_loader.py      (kmeans aun sin uso)
-│   │   └── preprocessing.py    (kmeans aun sin uso)
+│   │   ├── onnx_loader.py      
+│   │   └── preprocessing.py 	(aun sin uso)    
+│   │   └── cluster_labels.py    
+│   │   └── kmeans_predictor.py    
 ├── models/
-│   └── kmeans_model.onnx       (kmeans aun sin uso)
+│   └── kmeans_model.onnx       
 ├── data/
 |	├── todos/
 |	│   ├── ventas.sqlite
+|	│   ├── kmeans.sqlite
 |	├── 01-07-2025/
 |	│   ├── ventas.sqlite
 |	│   └── resultados_apriori.json

@@ -1,0 +1,394 @@
+{
+  "resultados": [
+    {
+      "venta_id": 1000,
+      "hora": 19,
+      "dia_semana": 6,
+      "id_producto": 6,
+      "cantidad": 2,
+      "precio_total": 32.82,
+      "cluster": 0,
+      "descripcion": "Compras economicas y simples"
+    },
+    {
+      "venta_id": 1001,
+      "hora": 6,
+      "dia_semana": 4,
+      "id_producto": 8,
+      "cantidad": 6,
+      "precio_total": 23.63,
+      "cluster": 0,
+      "descripcion": "Compras economicas y simples"
+    },
+    {
+      "venta_id": 1002,
+      "hora": 6,
+      "dia_semana": 6,
+      "id_producto": 43,
+      "cantidad": 6,
+      "precio_total": 29.32,
+      "cluster": 0,
+      "descripcion": "Compras economicas y simples"
+    },
+    {
+      "venta_id": 1003,
+      "hora": 23,
+      "dia_semana": 5,
+      "id_producto": 7,
+      "cantidad": 10,
+      "precio_total": 68.74,
+      "cluster": 2,
+      "descripcion": "Snacks de tarde"
+    },
+    {
+      "venta_id": 1004,
+      "hora": 22,
+      "dia_semana": 4,
+      "id_producto": 30,
+      "cantidad": 7,
+      "precio_total": 68.18,
+      "cluster": 1,
+      "descripcion": "Compras familiares de fin de semana"
+    },
+    {
+      "venta_id": 1005,
+      "hora": 13,
+      "dia_semana": 5,
+      "id_producto": 46,
+      "cantidad": 3,
+      "precio_total": 55.58,
+      "cluster": 0,
+      "descripcion": "Compras economicas y simples"
+    },
+    {
+      "venta_id": 1006,
+      "hora": 0,
+      "dia_semana": 0,
+      "id_producto": 46,
+      "cantidad": 8,
+      "precio_total": 19.73,
+      "cluster": 0,
+      "descripcion": "Compras economicas y simples"
+    },
+    {
+      "venta_id": 1007,
+      "hora": 17,
+      "dia_semana": 2,
+      "id_producto": 5,
+      "cantidad": 10,
+      "precio_total": 14.54,
+      "cluster": 0,
+      "descripcion": "Compras economicas y simples"
+    },
+    {
+      "venta_id": 1008,
+      "hora": 1,
+      "dia_semana": 6,
+      "id_producto": 12,
+      "cantidad": 7,
+      "precio_total": 97.16,
+      "cluster": 1,
+      "descripcion": "Compras familiares de fin de semana"
+    },
+    {
+      "venta_id": 1009,
+      "hora": 6,
+      "dia_semana": 4,
+      "id_producto": 45,
+      "cantidad": 9,
+      "precio_total": 63.48,
+      "cluster": 1,
+      "descripcion": "Compras familiares de fin de semana"
+    },
+    {
+      "venta_id": 1010,
+      "hora": 6,
+      "dia_semana": 5,
+      "id_producto": 49,
+      "cantidad": 4,
+      "precio_total": 96.8,
+      "cluster": 1,
+      "descripcion": "Compras familiares de fin de semana"
+    },
+    {
+      "venta_id": 1011,
+      "hora": 3,
+      "dia_semana": 1,
+      "id_producto": 36,
+      "cantidad": 6,
+      "precio_total": 5.83,
+      "cluster": 0,
+      "descripcion": "Compras economicas y simples"
+    },
+    {
+      "venta_id": 1012,
+      "hora": 18,
+      "dia_semana": 4,
+      "id_producto": 31,
+      "cantidad": 5,
+      "precio_total": 10.64,
+      "cluster": 0,
+      "descripcion": "Compras economicas y simples"
+    },
+    {
+      "venta_id": 1013,
+      "hora": 14,
+      "dia_semana": 4,
+      "id_producto": 20,
+      "cantidad": 9,
+      "precio_total": 38.92,
+      "cluster": 0,
+      "descripcion": "Compras economicas y simples"
+    },
+    {
+      "venta_id": 1014,
+      "hora": 14,
+      "dia_semana": 6,
+      "id_producto": 21,
+      "cantidad": 7,
+      "precio_total": 52.7,
+      "cluster": 2,
+      "descripcion": "Snacks de tarde"
+    },
+    {
+      "venta_id": 1015,
+      "hora": 13,
+      "dia_semana": 0,
+      "id_producto": 26,
+      "cantidad": 6,
+      "precio_total": 26.34,
+      "cluster": 0,
+      "descripcion": "Compras economicas y simples"
+    },
+    {
+      "venta_id": 1016,
+      "hora": 22,
+      "dia_semana": 2,
+      "id_producto": 22,
+      "cantidad": 10,
+      "precio_total": 90.25,
+      "cluster": 1,
+      "descripcion": "Compras familiares de fin de semana"
+    },
+    {
+      "venta_id": 1017,
+      "hora": 5,
+      "dia_semana": 4,
+      "id_producto": 9,
+      "cantidad": 8,
+      "precio_total": 69.37,
+      "cluster": 2,
+      "descripcion": "Snacks de tarde"
+    },
+    {
+      "venta_id": 1018,
+      "hora": 10,
+      "dia_semana": 2,
+      "id_producto": 29,
+      "cantidad": 10,
+      "precio_total": 72.18,
+      "cluster": 1,
+      "descripcion": "Compras familiares de fin de semana"
+    },
+    {
+      "venta_id": 1019,
+      "hora": 17,
+      "dia_semana": 5,
+      "id_producto": 13,
+      "cantidad": 8,
+      "precio_total": 87.17,
+      "cluster": 1,
+      "descripcion": "Compras familiares de fin de semana"
+    },
+    {
+      "venta_id": 1020,
+      "hora": 11,
+      "dia_semana": 3,
+      "id_producto": 31,
+      "cantidad": 1,
+      "precio_total": 59.6,
+      "cluster": 2,
+      "descripcion": "Snacks de tarde"
+    },
+    {
+      "venta_id": 1021,
+      "hora": 1,
+      "dia_semana": 0,
+      "id_producto": 33,
+      "cantidad": 8,
+      "precio_total": 70.86,
+      "cluster": 1,
+      "descripcion": "Compras familiares de fin de semana"
+    },
+    {
+      "venta_id": 1022,
+      "hora": 22,
+      "dia_semana": 4,
+      "id_producto": 49,
+      "cantidad": 4,
+      "precio_total": 28.14,
+      "cluster": 0,
+      "descripcion": "Compras economicas y simples"
+    },
+    {
+      "venta_id": 1023,
+      "hora": 23,
+      "dia_semana": 3,
+      "id_producto": 20,
+      "cantidad": 2,
+      "precio_total": 54.86,
+      "cluster": 2,
+      "descripcion": "Snacks de tarde"
+    },
+    {
+      "venta_id": 1024,
+      "hora": 11,
+      "dia_semana": 0,
+      "id_producto": 9,
+      "cantidad": 3,
+      "precio_total": 35.85,
+      "cluster": 0,
+      "descripcion": "Compras economicas y simples"
+    },
+    {
+      "venta_id": 1025,
+      "hora": 10,
+      "dia_semana": 1,
+      "id_producto": 32,
+      "cantidad": 8,
+      "precio_total": 44.47,
+      "cluster": 0,
+      "descripcion": "Compras economicas y simples"
+    },
+    {
+      "venta_id": 1026,
+      "hora": 22,
+      "dia_semana": 0,
+      "id_producto": 25,
+      "cantidad": 6,
+      "precio_total": 8.74,
+      "cluster": 0,
+      "descripcion": "Compras economicas y simples"
+    },
+    {
+      "venta_id": 1027,
+      "hora": 5,
+      "dia_semana": 6,
+      "id_producto": 15,
+      "cantidad": 2,
+      "precio_total": 83.56,
+      "cluster": 1,
+      "descripcion": "Compras familiares de fin de semana"
+    },
+    {
+      "venta_id": 1028,
+      "hora": 7,
+      "dia_semana": 6,
+      "id_producto": 14,
+      "cantidad": 5,
+      "precio_total": 34.71,
+      "cluster": 0,
+      "descripcion": "Compras economicas y simples"
+    },
+    {
+      "venta_id": 1029,
+      "hora": 0,
+      "dia_semana": 4,
+      "id_producto": 28,
+      "cantidad": 3,
+      "precio_total": 84.88,
+      "cluster": 1,
+      "descripcion": "Compras familiares de fin de semana"
+    },
+    {
+      "venta_id": 1030,
+      "hora": 16,
+      "dia_semana": 6,
+      "id_producto": 24,
+      "cantidad": 5,
+      "precio_total": 13.15,
+      "cluster": 0,
+      "descripcion": "Compras economicas y simples"
+    },
+    {
+      "venta_id": 1031,
+      "hora": 7,
+      "dia_semana": 2,
+      "id_producto": 21,
+      "cantidad": 8,
+      "precio_total": 57.01,
+      "cluster": 2,
+      "descripcion": "Snacks de tarde"
+    },
+    {
+      "venta_id": 1032,
+      "hora": 16,
+      "dia_semana": 5,
+      "id_producto": 18,
+      "cantidad": 9,
+      "precio_total": 91.72,
+      "cluster": 1,
+      "descripcion": "Compras familiares de fin de semana"
+    },
+    {
+      "venta_id": 1033,
+      "hora": 15,
+      "dia_semana": 6,
+      "id_producto": 12,
+      "cantidad": 2,
+      "precio_total": 30.59,
+      "cluster": 0,
+      "descripcion": "Compras economicas y simples"
+    },
+    {
+      "venta_id": 1034,
+      "hora": 13,
+      "dia_semana": 2,
+      "id_producto": 27,
+      "cantidad": 5,
+      "precio_total": 40.95,
+      "cluster": 0,
+      "descripcion": "Compras economicas y simples"
+    },
+    {
+      "venta_id": 1035,
+      "hora": 8,
+      "dia_semana": 6,
+      "id_producto": 18,
+      "cantidad": 6,
+      "precio_total": 97.41,
+      "cluster": 1,
+      "descripcion": "Compras familiares de fin de semana"
+    },
+    {
+      "venta_id": 1036,
+      "hora": 14,
+      "dia_semana": 6,
+      "id_producto": 33,
+      "cantidad": 8,
+      "precio_total": 20.12,
+      "cluster": 0,
+      "descripcion": "Compras economicas y simples"
+    },
+    {
+      "venta_id": 1037,
+      "hora": 17,
+      "dia_semana": 4,
+      "id_producto": 47,
+      "cantidad": 5,
+      "precio_total": 35.96,
+      "cluster": 0,
+      "descripcion": "Compras economicas y simples"
+    },
+    {
+      "venta_id": 1038,
+      "hora": 17,
+      "dia_semana": 0,
+      "id_producto": 31,
+      "cantidad": 2,
+      "precio_total": 98.68,
+      "cluster": 1,
+      "descripcion": "Compras familiares de fin de semana"
+    }
+  ]
+}

@@ -1,54 +1,37 @@
 # app/services/kmeans_service.py
-import os
-import json
-import onnxruntime as ort
-import numpy as np
-from app.utils.preprocessing import transformar_dato_crudo
+from app.utils.onnx_loader import predecir_cluster
 
-onnx_path = "models/kmeans_model.onnx"
-# Ruta de los archivos
-DATA_PATH = os.path.abspath(os.path.join(os.path.dirname(__file__), '..', '..', 'data', 'datos.json'))
-# Change these lines in kmeans_service.py
-MODEL_PATH = os.path.join(os.path.dirname(__file__), '..', '..', 'models', 'kmeans_model.onnx')
-
-# Diccionarios para codificación de texto a número
-map_horas = {"mañana": 0, "tarde": 1, "noche": 2}
-map_dias = {"lunes": 0, "martes": 1, "miércoles": 2, "jueves": 3, "viernes": 4, "sábado": 5, "domingo": 6}
-
-def predecir_cluster(dato: dict) -> int:
+def generar_vector_venta(venta: dict) -> list[float]:
+    """
+    Transforma los datos de una venta en el vector esperado por el modelo KMeans.
+    Se espera que el diccionario contenga: cantidad_total, monto_total, hora, es_finde
+    """
     try:
-        entrada = np.array([transformar_dato_crudo(dato)], dtype=np.float32)
-        session = ort.InferenceSession(MODEL_PATH)
-        input_name = session.get_inputs()[0].name
-        output = session.run(None, {input_name: entrada})
-        return int(output[0][0])
+        return [
+            float(venta["cantidad_total"]),
+            float(venta["monto_total"]),
+            float(venta["hora"]),
+            float(venta["es_finde"]),
+        ]
+    except KeyError as e:
+        raise ValueError(f"Falta el campo requerido: {e}")
     except Exception as e:
-        raise ValueError(f"Prediction failed: {str(e)}")
+        raise ValueError(f"Error al generar vector: {e}")
 
+def predecir_segmento(venta: dict) -> dict:
+    """
+    Predice el segmento de cliente (cluster) según los datos de la venta.
+    """
+    vector = generar_vector_venta(venta)
+    cluster = predecir_cluster(vector)
 
-def limpiar_datos(cliente):
-    return [
-        int(cliente.get("n_compras_ultimos_30_dias", 0)),
-        map_horas.get(cliente.get("hora_preferida", "").lower(), -1),
-        map_dias.get(cliente.get("dia_semana_frecuente", "").lower(), -1),
-        float(cliente.get("promedio_valor_compra", 0.0)),
-        int(cliente.get("recompra_productos", 0))
-    ]
+    etiquetas = {
+        0: "Compras pequeñas matutinas",
+        1: "Compras familiares de fin de semana",
+        2: "Snacks de tarde"
+    }
 
-def predecir_desde_archivo():
-    print(f"[DEBUG] Leyendo desde: {DATA_PATH}")
-
-    # Cargar datos
-    with open(DATA_PATH, "r") as f:
-        datos = json.load(f)
-
-    X = np.array([limpiar_datos(c) for c in datos], dtype=np.float32)
-
-    # Cargar modelo ONNX
-    session = ort.InferenceSession(MODEL_PATH)
-    input_name = session.get_inputs()[0].name
-    output_name = session.get_outputs()[0].name
-
-    # Hacer predicciones
-    resultados = session.run([output_name], {input_name: X})[0]
-    return resultados.tolist()
+    return {
+        "cluster": int(cluster),
+        "segmento": etiquetas.get(int(cluster), "Desconocido")
+    }

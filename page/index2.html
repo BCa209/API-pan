@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Resultados KMeans</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 40px;
+    }
+    table {
+      border-collapse: collapse;
+      width: 100%;
+    }
+    th, td {
+      padding: 10px;
+      border: 1px solid #ccc;
+      text-align: center;
+    }
+    th {
+      background-color: #f2f2f2;
+    }
+    h2 {
+      margin-bottom: 20px;
+    }
+  </style>
+</head>
+<body>
+  <h2>Resultados de Clustering (GET /kmeans/clusterizados)</h2>
+  <div id="tabla-resultados">Cargando datos...</div>
+
+  <script>
+    document.addEventListener('DOMContentLoaded', () => {
+      fetch('http://10.55.114.186:8000/kmeans/clusterizados')
+        .then(response => {
+          if (!response.ok) {
+            throw new Error('Error al obtener datos de la API');
+          }
+          return response.json();
+        })
+        .then(data => {
+          const resultados = data.resultados;
+          if (!resultados || resultados.length === 0) {
+            document.getElementById('tabla-resultados').innerText = "No hay resultados disponibles.";
+            return;
+          }
+
+          let tabla = `<table>
+            <thead>
+              <tr>
+                <th>ID Venta</th>
+                <th>Hora</th>
+                <th>Día Semana</th>
+                <th>ID Producto</th>
+                <th>Cantidad</th>
+                <th>Precio Total</th>
+                <th>Cluster</th>
+                <th>Descripción</th>
+              </tr>
+            </thead>
+            <tbody>`;
+
+          resultados.forEach(venta => {
+            tabla += `<tr>
+              <td>${venta.venta_id}</td>
+              <td>${venta.hora}</td>
+              <td>${venta.dia_semana}</td>
+              <td>${venta.id_producto}</td>
+              <td>${venta.cantidad}</td>
+              <td>${venta.precio_total.toFixed(2)}</td>
+              <td>${venta.cluster}</td>
+              <td>${venta.descripcion}</td>
+            </tr>`;
+          });
+
+          tabla += `</tbody></table>`;
+          document.getElementById('tabla-resultados').innerHTML = tabla;
+        })
+        .catch(error => {
+          document.getElementById('tabla-resultados').innerText = error.message;
+        });
+    });
+  </script>
+</body>
+</html>
