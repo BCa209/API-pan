@@ -1,0 +1,107 @@
+[
+    {
+        "id_venta": "33",
+        "id_producto": "17",
+        "fecha_venta": "04-07-2025"
+    },
+    {
+        "id_venta": "33",
+        "id_producto": "19",
+        "fecha_venta": "04-07-2025"
+    },
+    {
+        "id_venta": "33",
+        "id_producto": "14",
+        "fecha_venta": "04-07-2025"
+    },
+    {
+        "id_venta": "58",
+        "id_producto": "15",
+        "fecha_venta": "04-07-2025"
+    },
+    {
+        "id_venta": "58",
+        "id_producto": "11",
+        "fecha_venta": "04-07-2025"
+    },
+    {
+        "id_venta": "58",
+        "id_producto": "12",
+        "fecha_venta": "04-07-2025"
+    },
+    {
+        "id_venta": "112",
+        "id_producto": "18",
+        "fecha_venta": "04-07-2025"
+    },
+    {
+        "id_venta": "112",
+        "id_producto": "17",
+        "fecha_venta": "04-07-2025"
+    },
+    {
+        "id_venta": "112",
+        "id_producto": "6",
+        "fecha_venta": "04-07-2025"
+    },
+    {
+        "id_venta": "121",
+        "id_producto": "17",
+        "fecha_venta": "04-07-2025"
+    },
+    {
+        "id_venta": "121",
+        "id_producto": "11",
+        "fecha_venta": "04-07-2025"
+    },
+    {
+        "id_venta": "121",
+        "id_producto": "23",
+        "fecha_venta": "04-07-2025"
+    },
+    {
+        "id_venta": "121",
+        "id_producto": "4",
+        "fecha_venta": "04-07-2025"
+    },
+    {
+        "id_venta": "121",
+        "id_producto": "18",
+        "fecha_venta": "04-07-2025"
+    },
+    {
+        "id_venta": "127",
+        "id_producto": "10",
+        "fecha_venta": "04-07-2025"
+    },
+    {
+        "id_venta": "132",
+        "id_producto": "21",
+        "fecha_venta": "04-07-2025"
+    },
+    {
+        "id_venta": "136",
+        "id_producto": "3",
+        "fecha_venta": "04-07-2025"
+    },
+    {
+        "id_venta": "136",
+        "id_producto": "13",
+        "fecha_venta": "04-07-2025"
+    },
+    {
+        "id_venta": "136",
+        "id_producto": "21",
+        "fecha_venta": "04-07-2025"
+    },
+    {
+        "id_venta": "224",
+        "id_producto": "15",
+        "fecha_venta": "04-07-2025"
+    },
+    {
+        "id_venta": "224",
+        "id_producto": "12",
+        "fecha_venta": "04-07-2025"
+    }
+]

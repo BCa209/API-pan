@@ -1,0 +1,55 @@
+			=== SOFTWARE ===
+
+1. Frecuencia
+	Cantidad de compras realizadas en un periodo (por ejemplo, semanal, mensual).
+	Ejemplo: n_compras_últimos_30_días
+
+2. Hora/día de compra preferida
+	¿Compra más en la mañana, tarde o noche? ¿Días de semana o fines?
+	Ejemplo: hora_preferida, dia_semana_frecuente
+
+3. Valor promedio de compra
+	Promedio del valor de cada compra.
+	Ejemplo: promedio_valor_compra = monto_total / n_compras
+
+4. Tasa de repetición
+	frecuencia se vuelve a comprar el mismo producto?
+	Ejemplo: recompra_productos
+
+api-pan/
+├── app/
+│   ├── main.py
+│   ├── models/
+│   │   └── input_schema.py	(kmeans aun sin uso)
+│   │   └── venta_schema.py
+│   │   └── database.py
+│   │   └── venta_model.py
+│   ├── services/
+│   │   ├── apriori_service.py  
+│   │   └── kmeans_service.py   (kmeans aun sin uso)
+│   ├── routes/
+│   │   └── predict.py          (kmeans aun sin uso)
+│   │   └── apriori.py          
+│   ├── utils/
+│   │   ├── onnx_loader.py      (kmeans aun sin uso)
+│   │   └── preprocessing.py    (kmeans aun sin uso)
+├── models/
+│   └── kmeans_model.onnx       (kmeans aun sin uso)
+├── data/
+|	├── todos/
+|	│   ├── ventas.sqlite
+|	├── 01-07-2025/
+|	│   ├── ventas.sqlite
+|	│   └── resultados_apriori.json
+|	├── 02-07-2025/
+|	│   ├── ventas.sqlite
+|	│   └── resultados_apriori.json
+|	|   ...          
+├── requirements.txt            	
+└── venv/
+
+a0riori..
+id_venta
+fecha
+hora_preferida
+dia semana

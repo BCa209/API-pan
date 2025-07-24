@@ -1,0 +1,112 @@
+[
+  {
+    "id_venta": "719",
+    "id_producto": "3",
+    "fecha_venta": "07-07-2025"
+  },
+  {
+    "id_venta": "719",
+    "id_producto": "20",
+    "fecha_venta": "07-07-2025"
+  },
+  {
+    "id_venta": "719",
+    "id_producto": "10",
+    "fecha_venta": "07-07-2025"
+  },
+  {
+    "id_venta": "719",
+    "id_producto": "4",
+    "fecha_venta": "07-07-2025"
+  },
+  {
+    "id_venta": "782",
+    "id_producto": "5",
+    "fecha_venta": "07-07-2025"
+  },
+  {
+    "id_venta": "811",
+    "id_producto": "12",
+    "fecha_venta": "07-07-2025"
+  },
+  {
+    "id_venta": "811",
+    "id_producto": "13",
+    "fecha_venta": "07-07-2025"
+  },
+  {
+    "id_venta": "849",
+    "id_producto": "17",
+    "fecha_venta": "07-07-2025"
+  },
+  {
+    "id_venta": "849",
+    "id_producto": "11",
+    "fecha_venta": "07-07-2025"
+  },
+  {
+    "id_venta": "849",
+    "id_producto": "5",
+    "fecha_venta": "07-07-2025"
+  },
+  {
+    "id_venta": "857",
+    "id_producto": "4",
+    "fecha_venta": "07-07-2025"
+  },
+  {
+    "id_venta": "860",
+    "id_producto": "24",
+    "fecha_venta": "07-07-2025"
+  },
+  {
+    "id_venta": "860",
+    "id_producto": "8",
+    "fecha_venta": "07-07-2025"
+  },
+  {
+    "id_venta": "860",
+    "id_producto": "5",
+    "fecha_venta": "07-07-2025"
+  },
+  {
+    "id_venta": "860",
+    "id_producto": "14",
+    "fecha_venta": "07-07-2025"
+  },
+  {
+    "id_venta": "876",
+    "id_producto": "24",
+    "fecha_venta": "07-07-2025"
+  },
+  {
+    "id_venta": "876",
+    "id_producto": "2",
+    "fecha_venta": "07-07-2025"
+  },
+  {
+    "id_venta": "900",
+    "id_producto": "18",
+    "fecha_venta": "07-07-2025"
+  },
+  {
+    "id_venta": "900",
+    "id_producto": "11",
+    "fecha_venta": "07-07-2025"
+  },
+  {
+    "id_venta": "900",
+    "id_producto": "20",
+    "fecha_venta": "07-07-2025"
+  },
+  {
+    "id_venta": "900",
+    "id_producto": "15",
+    "fecha_venta": "07-07-2025"
+  },
+  {
+    "id_venta": "900",
+    "id_producto": "7",
+    "fecha_venta": "07-07-2025"
+  }
+]

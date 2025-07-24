@@ -1,0 +1,86 @@
+[
+    {
+        "id_venta": "264",
+        "id_producto": "9"
+    },
+    {
+        "id_venta": "264",
+        "id_producto": "3"
+    },
+    {
+        "id_venta": "264",
+        "id_producto": "12"
+    },
+    {
+        "id_venta": "265",
+        "id_producto": "23"
+    },
+    {
+        "id_venta": "265",
+        "id_producto": "11"
+    },
+    {
+        "id_venta": "265",
+        "id_producto": "22"
+    },
+    {
+        "id_venta": "271",
+        "id_producto": "25"
+    },
+    {
+        "id_venta": "280",
+        "id_producto": "21"
+    },
+    {
+        "id_venta": "280",
+        "id_producto": "9"
+    },
+    {
+        "id_venta": "280",
+        "id_producto": "16"
+    },
+    {
+        "id_venta": "280",
+        "id_producto": "2"
+    },
+    {
+        "id_venta": "280",
+        "id_producto": "22"
+    },
+    {
+        "id_venta": "282",
+        "id_producto": "24"
+    },
+    {
+        "id_venta": "359",
+        "id_producto": "17"
+    },
+    {
+        "id_venta": "368",
+        "id_producto": "11"
+    },
+    {
+        "id_venta": "368",
+        "id_producto": "24"
+    },
+    {
+        "id_venta": "368",
+        "id_producto": "6"
+    },
+    {
+        "id_venta": "368",
+        "id_producto": "25"
+    },
+    {
+        "id_venta": "368",
+        "id_producto": "23"
+    },
+    {
+        "id_venta": "370",
+        "id_producto": "10"
+    },
+    {
+        "id_venta": "370",
+        "id_producto": "7"
+    }
+]

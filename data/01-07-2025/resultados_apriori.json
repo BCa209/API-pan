@@ -1,0 +1,532 @@
+[
+    {
+        "antecedente": [
+            1
+        ],
+        "consecuente": [
+            17
+        ],
+        "soporte": 0.25,
+        "confianza": 1.0,
+        "lift": 4.0
+    },
+    {
+        "antecedente": [
+            17
+        ],
+        "consecuente": [
+            1
+        ],
+        "soporte": 0.25,
+        "confianza": 1.0,
+        "lift": 4.0
+    },
+    {
+        "antecedente": [
+            1
+        ],
+        "consecuente": [
+            22
+        ],
+        "soporte": 0.25,
+        "confianza": 1.0,
+        "lift": 2.0
+    },
+    {
+        "antecedente": [
+            22
+        ],
+        "consecuente": [
+            1
+        ],
+        "soporte": 0.25,
+        "confianza": 0.5,
+        "lift": 2.0
+    },
+    {
+        "antecedente": [
+            4
+        ],
+        "consecuente": [
+            6
+        ],
+        "soporte": 0.25,
+        "confianza": 0.5,
+        "lift": 1.0
+    },
+    {
+        "antecedente": [
+            6
+        ],
+        "consecuente": [
+            4
+        ],
+        "soporte": 0.25,
+        "confianza": 0.5,
+        "lift": 1.0
+    },
+    {
+        "antecedente": [
+            16
+        ],
+        "consecuente": [
+            4
+        ],
+        "soporte": 0.5,
+        "confianza": 1.0,
+        "lift": 2.0
+    },
+    {
+        "antecedente": [
+            4
+        ],
+        "consecuente": [
+            16
+        ],
+        "soporte": 0.5,
+        "confianza": 1.0,
+        "lift": 2.0
+    },
+    {
+        "antecedente": [
+            4
+        ],
+        "consecuente": [
+            22
+        ],
+        "soporte": 0.25,
+        "confianza": 0.5,
+        "lift": 1.0
+    },
+    {
+        "antecedente": [
+            22
+        ],
+        "consecuente": [
+            4
+        ],
+        "soporte": 0.25,
+        "confianza": 0.5,
+        "lift": 1.0
+    },
+    {
+        "antecedente": [
+            6
+        ],
+        "consecuente": [
+            7
+        ],
+        "soporte": 0.25,
+        "confianza": 0.5,
+        "lift": 2.0
+    },
+    {
+        "antecedente": [
+            7
+        ],
+        "consecuente": [
+            6
+        ],
+        "soporte": 0.25,
+        "confianza": 1.0,
+        "lift": 2.0
+    },
+    {
+        "antecedente": [
+            13
+        ],
+        "consecuente": [
+            6
+        ],
+        "soporte": 0.25,
+        "confianza": 1.0,
+        "lift": 2.0
+    },
+    {
+        "antecedente": [
+            6
+        ],
+        "consecuente": [
+            13
+        ],
+        "soporte": 0.25,
+        "confianza": 0.5,
+        "lift": 2.0
+    },
+    {
+        "antecedente": [
+            16
+        ],
+        "consecuente": [
+            6
+        ],
+        "soporte": 0.25,
+        "confianza": 0.5,
+        "lift": 1.0
+    },
+    {
+        "antecedente": [
+            6
+        ],
+        "consecuente": [
+            16
+        ],
+        "soporte": 0.25,
+        "confianza": 0.5,
+        "lift": 1.0
+    },
+    {
+        "antecedente": [
+            13
+        ],
+        "consecuente": [
+            7
+        ],
+        "soporte": 0.25,
+        "confianza": 1.0,
+        "lift": 4.0
+    },
+    {
+        "antecedente": [
+            7
+        ],
+        "consecuente": [
+            13
+        ],
+        "soporte": 0.25,
+        "confianza": 1.0,
+        "lift": 4.0
+    },
+    {
+        "antecedente": [
+            16
+        ],
+        "consecuente": [
+            22
+        ],
+        "soporte": 0.25,
+        "confianza": 0.5,
+        "lift": 1.0
+    },
+    {
+        "antecedente": [
+            22
+        ],
+        "consecuente": [
+            16
+        ],
+        "soporte": 0.25,
+        "confianza": 0.5,
+        "lift": 1.0
+    },
+    {
+        "antecedente": [
+            17
+        ],
+        "consecuente": [
+            22
+        ],
+        "soporte": 0.25,
+        "confianza": 1.0,
+        "lift": 2.0
+    },
+    {
+        "antecedente": [
+            22
+        ],
+        "consecuente": [
+            17
+        ],
+        "soporte": 0.25,
+        "confianza": 0.5,
+        "lift": 2.0
+    },
+    {
+        "antecedente": [
+            1,
+            17
+        ],
+        "consecuente": [
+            22
+        ],
+        "soporte": 0.25,
+        "confianza": 1.0,
+        "lift": 2.0
+    },
+    {
+        "antecedente": [
+            1,
+            22
+        ],
+        "consecuente": [
+            17
+        ],
+        "soporte": 0.25,
+        "confianza": 1.0,
+        "lift": 4.0
+    },
+    {
+        "antecedente": [
+            17,
+            22
+        ],
+        "consecuente": [
+            1
+        ],
+        "soporte": 0.25,
+        "confianza": 1.0,
+        "lift": 4.0
+    },
+    {
+        "antecedente": [
+            1
+        ],
+        "consecuente": [
+            17,
+            22
+        ],
+        "soporte": 0.25,
+        "confianza": 1.0,
+        "lift": 4.0
+    },
+    {
+        "antecedente": [
+            17
+        ],
+        "consecuente": [
+            1,
+            22
+        ],
+        "soporte": 0.25,
+        "confianza": 1.0,
+        "lift": 4.0
+    },
+    {
+        "antecedente": [
+            22
+        ],
+        "consecuente": [
+            1,
+            17
+        ],
+        "soporte": 0.25,
+        "confianza": 0.5,
+        "lift": 2.0
+    },
+    {
+        "antecedente": [
+            16,
+            4
+        ],
+        "consecuente": [
+            6
+        ],
+        "soporte": 0.25,
+        "confianza": 0.5,
+        "lift": 1.0
+    },
+    {
+        "antecedente": [
+            16,
+            6
+        ],
+        "consecuente": [
+            4
+        ],
+        "soporte": 0.25,
+        "confianza": 1.0,
+        "lift": 2.0
+    },
+    {
+        "antecedente": [
+            4,
+            6
+        ],
+        "consecuente": [
+            16
+        ],
+        "soporte": 0.25,
+        "confianza": 1.0,
+        "lift": 2.0
+    },
+    {
+        "antecedente": [
+            16
+        ],
+        "consecuente": [
+            4,
+            6
+        ],
+        "soporte": 0.25,
+        "confianza": 0.5,
+        "lift": 2.0
+    },
+    {
+        "antecedente": [
+            4
+        ],
+        "consecuente": [
+            16,
+            6
+        ],
+        "soporte": 0.25,
+        "confianza": 0.5,
+        "lift": 2.0
+    },
+    {
+        "antecedente": [
+            6
+        ],
+        "consecuente": [
+            16,
+            4
+        ],
+        "soporte": 0.25,
+        "confianza": 0.5,
+        "lift": 1.0
+    },
+    {
+        "antecedente": [
+            16,
+            4
+        ],
+        "consecuente": [
+            22
+        ],
+        "soporte": 0.25,
+        "confianza": 0.5,
+        "lift": 1.0
+    },
+    {
+        "antecedente": [
+            16,
+            22
+        ],
+        "consecuente": [
+            4
+        ],
+        "soporte": 0.25,
+        "confianza": 1.0,
+        "lift": 2.0
+    },
+    {
+        "antecedente": [
+            4,
+            22
+        ],
+        "consecuente": [
+            16
+        ],
+        "soporte": 0.25,
+        "confianza": 1.0,
+        "lift": 2.0
+    },
+    {
+        "antecedente": [
+            16
+        ],
+        "consecuente": [
+            4,
+            22
+        ],
+        "soporte": 0.25,
+        "confianza": 0.5,
+        "lift": 2.0
+    },
+    {
+        "antecedente": [
+            4
+        ],
+        "consecuente": [
+            16,
+            22
+        ],
+        "soporte": 0.25,
+        "confianza": 0.5,
+        "lift": 2.0
+    },
+    {
+        "antecedente": [
+            22
+        ],
+        "consecuente": [
+            16,
+            4
+        ],
+        "soporte": 0.25,
+        "confianza": 0.5,
+        "lift": 1.0
+    },
+    {
+        "antecedente": [
+            13,
+            6
+        ],
+        "consecuente": [
+            7
+        ],
+        "soporte": 0.25,
+        "confianza": 1.0,
+        "lift": 4.0
+    },
+    {
+        "antecedente": [
+            13,
+            7
+        ],
+        "consecuente": [
+            6
+        ],
+        "soporte": 0.25,
+        "confianza": 1.0,
+        "lift": 2.0
+    },
+    {
+        "antecedente": [
+            6,
+            7
+        ],
+        "consecuente": [
+            13
+        ],
+        "soporte": 0.25,
+        "confianza": 1.0,
+        "lift": 4.0
+    },
+    {
+        "antecedente": [
+            13
+        ],
+        "consecuente": [
+            6,
+            7
+        ],
+        "soporte": 0.25,
+        "confianza": 1.0,
+        "lift": 4.0
+    },
+    {
+        "antecedente": [
+            6
+        ],
+        "consecuente": [
+            13,
+            7
+        ],
+        "soporte": 0.25,
+        "confianza": 0.5,
+        "lift": 2.0
+    },
+    {
+        "antecedente": [
+            7
+        ],
+        "consecuente": [
+            13,
+            6
+        ],
+        "soporte": 0.25,
+        "confianza": 1.0,
+        "lift": 4.0
+    }
+]

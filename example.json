@@ -1,0 +1,91 @@
+[
+    [
+        {
+            "id_venta": 12345,
+            "hora": 15,
+            "fecha": "2023-10-01",
+            "producto": {
+                "id_prod": 11,
+                "cantidad": 15,
+                "precio_unitario": 10.0,
+                "precio_total": 150.0
+            }
+        },
+        {
+            "id_venta": 12345,
+            "hora": 15,
+            "fecha": "2023-10-01",
+            "producto": {
+                "id_prod": 11,
+                "cantidad": 15,
+                "precio_unitario": 10.0,
+                "precio_total": 150.0
+            }
+        },
+        {
+            "id_venta": 12346,
+            "hora": 16,
+            "fecha": "2023-10-01",
+            "producto": {
+                "id_prod": 12,
+                "cantidad": 20,
+                "precio_unitario": 5.0,
+                "precio_total": 100.0
+            }
+        },
+        {
+            "id_venta": 12347,
+            "hora": 17,
+            "fecha": "2023-10-01",
+            "producto": {
+                "id_prod": 13,
+                "cantidad": 10,
+                "precio_unitario": 20.0,
+                "precio_total": 200.0
+            }
+        }
+    ],
+    //  POST/aprioiri
+    [
+        {
+            "id_venta": 1,
+            "producto": {
+                "id_producto":1
+            }
+        },
+        {
+            "id_venta": 1,
+            "producto": {
+                "id_producto":2
+            }
+        },
+        {
+            "id_venta": 1,
+            "producto": {
+                "id_producto":3
+            }
+        },
+        {
+            "id_venta": 2,
+            "producto": {
+                "id_producto":2
+            }
+        },
+        {
+            "id_venta": 2,
+            "producto": {
+                "id_producto":1
+            }
+        },
+        {
+            "id_venta": 3,
+            "producto": {
+                "id_producto":1
+            }
+        },
+        {
+            "id_venta": 3,
+            "id_producto":1
+        }
+    ]
+]

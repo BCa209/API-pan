@@ -1,0 +1,50 @@
+[
+    {
+        "id_venta": "23",
+        "id_producto": "22"
+    },
+    {
+        "id_venta": "23",
+        "id_producto": "17"
+    },
+    {
+        "id_venta": "23",
+        "id_producto": "1"
+    },
+    {
+        "id_venta": "42",
+        "id_producto": "13"
+    },
+    {
+        "id_venta": "42",
+        "id_producto": "6"
+    },
+    {
+        "id_venta": "42",
+        "id_producto": "7"
+    },
+    {
+        "id_venta": "77",
+        "id_producto": "16"
+    },
+    {
+        "id_venta": "77",
+        "id_producto": "4"
+    },
+    {
+        "id_venta": "77",
+        "id_producto": "6"
+    },
+    {
+        "id_venta": "98",
+        "id_producto": "4"
+    },
+    {
+        "id_venta": "98",
+        "id_producto": "16"
+    },
+    {
+        "id_venta": "98",
+        "id_producto": "22"
+    }
+]

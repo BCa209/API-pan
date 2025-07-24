@@ -1,0 +1,92 @@
+[
+    {
+        "id_venta": "573",
+        "id_producto": "9",
+        "fecha_venta": "06-07-2025"
+    },
+    {
+        "id_venta": "573",
+        "id_producto": "5",
+        "fecha_venta": "06-07-2025"
+    },
+    {
+        "id_venta": "573",
+        "id_producto": "7",
+        "fecha_venta": "06-07-2025"
+    },
+    {
+        "id_venta": "581",
+        "id_producto": "20",
+        "fecha_venta": "06-07-2025"
+    },
+    {
+        "id_venta": "581",
+        "id_producto": "2",
+        "fecha_venta": "06-07-2025"
+    },
+    {
+        "id_venta": "581",
+        "id_producto": "5",
+        "fecha_venta": "06-07-2025"
+    },
+    {
+        "id_venta": "581",
+        "id_producto": "9",
+        "fecha_venta": "06-07-2025"
+    },
+    {
+        "id_venta": "581",
+        "id_producto": "12",
+        "fecha_venta": "06-07-2025"
+    },
+    {
+        "id_venta": "604",
+        "id_producto": "3",
+        "fecha_venta": "06-07-2025"
+    },
+    {
+        "id_venta": "604",
+        "id_producto": "16",
+        "fecha_venta": "06-07-2025"
+    },
+    {
+        "id_venta": "629",
+        "id_producto": "5",
+        "fecha_venta": "06-07-2025"
+    },
+    {
+        "id_venta": "652",
+        "id_producto": "10",
+        "fecha_venta": "06-07-2025"
+    },
+    {
+        "id_venta": "652",
+        "id_producto": "24",
+        "fecha_venta": "06-07-2025"
+    },
+    {
+        "id_venta": "652",
+        "id_producto": "16",
+        "fecha_venta": "06-07-2025"
+    },
+    {
+        "id_venta": "670",
+        "id_producto": "7",
+        "fecha_venta": "06-07-2025"
+    },
+    {
+        "id_venta": "676",
+        "id_producto": "23",
+        "fecha_venta": "06-07-2025"
+    },
+    {
+        "id_venta": "676",
+        "id_producto": "22",
+        "fecha_venta": "06-07-2025"
+    },
+    {
+        "id_venta": "684",
+        "id_producto": "20",
+        "fecha_venta": "06-07-2025"
+    }
+]

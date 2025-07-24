@@ -1,0 +1,802 @@
+[
+  {
+    "id": "cliente_000",
+    "n_compras_ultimos_30_dias": 1,
+    "hora_preferida": "mañana",
+    "dia_semana_frecuente": "jueves",
+    "promedio_valor_compra": 81.28,
+    "recompra_productos": 0.95
+  },
+  {
+    "id": "cliente_001",
+    "n_compras_ultimos_30_dias": 13,
+    "hora_preferida": "mañana",
+    "dia_semana_frecuente": "lunes",
+    "promedio_valor_compra": 58.52,
+    "recompra_productos": 0.14
+  },
+  {
+    "id": "cliente_002",
+    "n_compras_ultimos_30_dias": 23,
+    "hora_preferida": "mañana",
+    "dia_semana_frecuente": "domingo",
+    "promedio_valor_compra": 172.43,
+    "recompra_productos": 0.73
+  },
+  {
+    "id": "cliente_003",
+    "n_compras_ultimos_30_dias": 4,
+    "hora_preferida": "noche",
+    "dia_semana_frecuente": "martes",
+    "promedio_valor_compra": 16.7,
+    "recompra_productos": 0.9
+  },
+  {
+    "id": "cliente_004",
+    "n_compras_ultimos_30_dias": 4,
+    "hora_preferida": "mañana",
+    "dia_semana_frecuente": "jueves",
+    "promedio_valor_compra": 137.24,
+    "recompra_productos": 0.73
+  },
+  {
+    "id": "cliente_005",
+    "n_compras_ultimos_30_dias": 7,
+    "hora_preferida": "mañana",
+    "dia_semana_frecuente": "domingo",
+    "promedio_valor_compra": 73.0,
+    "recompra_productos": 0.78
+  },
+  {
+    "id": "cliente_006",
+    "n_compras_ultimos_30_dias": 16,
+    "hora_preferida": "tarde",
+    "dia_semana_frecuente": "lunes",
+    "promedio_valor_compra": 72.63,
+    "recompra_productos": 0.72
+  },
+  {
+    "id": "cliente_007",
+    "n_compras_ultimos_30_dias": 8,
+    "hora_preferida": "noche",
+    "dia_semana_frecuente": "miercoles",
+    "promedio_valor_compra": 131.48,
+    "recompra_productos": 0.37
+  },
+  {
+    "id": "cliente_008",
+    "n_compras_ultimos_30_dias": 14,
+    "hora_preferida": "tarde",
+    "dia_semana_frecuente": "sabado",
+    "promedio_valor_compra": 24.6,
+    "recompra_productos": 0.43
+  },
+  {
+    "id": "cliente_009",
+    "n_compras_ultimos_30_dias": 26,
+    "hora_preferida": "mañana",
+    "dia_semana_frecuente": "lunes",
+    "promedio_valor_compra": 72.89,
+    "recompra_productos": 0.76
+  },
+  {
+    "id": "cliente_010",
+    "n_compras_ultimos_30_dias": 26,
+    "hora_preferida": "mañana",
+    "dia_semana_frecuente": "miercoles",
+    "promedio_valor_compra": 183.31,
+    "recompra_productos": 0.02
+  },
+  {
+    "id": "cliente_011",
+    "n_compras_ultimos_30_dias": 16,
+    "hora_preferida": "noche",
+    "dia_semana_frecuente": "martes",
+    "promedio_valor_compra": 123.95,
+    "recompra_productos": 0.69
+  },
+  {
+    "id": "cliente_012",
+    "n_compras_ultimos_30_dias": 17,
+    "hora_preferida": "noche",
+    "dia_semana_frecuente": "lunes",
+    "promedio_valor_compra": 155.51,
+    "recompra_productos": 0.3
+  },
+  {
+    "id": "cliente_013",
+    "n_compras_ultimos_30_dias": 3,
+    "hora_preferida": "noche",
+    "dia_semana_frecuente": "viernes",
+    "promedio_valor_compra": 96.72,
+    "recompra_productos": 0.85
+  },
+  {
+    "id": "cliente_014",
+    "n_compras_ultimos_30_dias": 5,
+    "hora_preferida": "noche",
+    "dia_semana_frecuente": "miercoles",
+    "promedio_valor_compra": 23.11,
+    "recompra_productos": 0.45
+  },
+  {
+    "id": "cliente_015",
+    "n_compras_ultimos_30_dias": 2,
+    "hora_preferida": "mañana",
+    "dia_semana_frecuente": "sabado",
+    "promedio_valor_compra": 151.62,
+    "recompra_productos": 0.73
+  },
+  {
+    "id": "cliente_016",
+    "n_compras_ultimos_30_dias": 5,
+    "hora_preferida": "mañana",
+    "dia_semana_frecuente": "viernes",
+    "promedio_valor_compra": 187.28,
+    "recompra_productos": 0.69
+  },
+  {
+    "id": "cliente_017",
+    "n_compras_ultimos_30_dias": 29,
+    "hora_preferida": "tarde",
+    "dia_semana_frecuente": "sabado",
+    "promedio_valor_compra": 31.29,
+    "recompra_productos": 0.45
+  },
+  {
+    "id": "cliente_018",
+    "n_compras_ultimos_30_dias": 9,
+    "hora_preferida": "mañana",
+    "dia_semana_frecuente": "jueves",
+    "promedio_valor_compra": 61.57,
+    "recompra_productos": 0.1
+  },
+  {
+    "id": "cliente_019",
+    "n_compras_ultimos_30_dias": 16,
+    "hora_preferida": "noche",
+    "dia_semana_frecuente": "martes",
+    "promedio_valor_compra": 69.99,
+    "recompra_productos": 0.02
+  },
+  {
+    "id": "cliente_020",
+    "n_compras_ultimos_30_dias": 11,
+    "hora_preferida": "noche",
+    "dia_semana_frecuente": "domingo",
+    "promedio_valor_compra": 177.72,
+    "recompra_productos": 0.36
+  },
+  {
+    "id": "cliente_021",
+    "n_compras_ultimos_30_dias": 13,
+    "hora_preferida": "tarde",
+    "dia_semana_frecuente": "viernes",
+    "promedio_valor_compra": 69.63,
+    "recompra_productos": 0.26
+  },
+  {
+    "id": "cliente_022",
+    "n_compras_ultimos_30_dias": 20,
+    "hora_preferida": "tarde",
+    "dia_semana_frecuente": "martes",
+    "promedio_valor_compra": 78.48,
+    "recompra_productos": 0.43
+  },
+  {
+    "id": "cliente_023",
+    "n_compras_ultimos_30_dias": 2,
+    "hora_preferida": "mañana",
+    "dia_semana_frecuente": "domingo",
+    "promedio_valor_compra": 50.6,
+    "recompra_productos": 0.33
+  },
+  {
+    "id": "cliente_024",
+    "n_compras_ultimos_30_dias": 30,
+    "hora_preferida": "mañana",
+    "dia_semana_frecuente": "martes",
+    "promedio_valor_compra": 21.92,
+    "recompra_productos": 0.61
+  },
+  {
+    "id": "cliente_025",
+    "n_compras_ultimos_30_dias": 10,
+    "hora_preferida": "tarde",
+    "dia_semana_frecuente": "jueves",
+    "promedio_valor_compra": 41.41,
+    "recompra_productos": 0.21
+  },
+  {
+    "id": "cliente_026",
+    "n_compras_ultimos_30_dias": 15,
+    "hora_preferida": "tarde",
+    "dia_semana_frecuente": "sabado",
+    "promedio_valor_compra": 156.91,
+    "recompra_productos": 0.71
+  },
+  {
+    "id": "cliente_027",
+    "n_compras_ultimos_30_dias": 13,
+    "hora_preferida": "tarde",
+    "dia_semana_frecuente": "viernes",
+    "promedio_valor_compra": 149.22,
+    "recompra_productos": 0.88
+  },
+  {
+    "id": "cliente_028",
+    "n_compras_ultimos_30_dias": 5,
+    "hora_preferida": "mañana",
+    "dia_semana_frecuente": "martes",
+    "promedio_valor_compra": 167.87,
+    "recompra_productos": 0.89
+  },
+  {
+    "id": "cliente_029",
+    "n_compras_ultimos_30_dias": 21,
+    "hora_preferida": "tarde",
+    "dia_semana_frecuente": "sabado",
+    "promedio_valor_compra": 23.79,
+    "recompra_productos": 0.01
+  },
+  {
+    "id": "cliente_030",
+    "n_compras_ultimos_30_dias": 3,
+    "hora_preferida": "mañana",
+    "dia_semana_frecuente": "viernes",
+    "promedio_valor_compra": 159.67,
+    "recompra_productos": 0.76
+  },
+  {
+    "id": "cliente_031",
+    "n_compras_ultimos_30_dias": 9,
+    "hora_preferida": "tarde",
+    "dia_semana_frecuente": "viernes",
+    "promedio_valor_compra": 154.33,
+    "recompra_productos": 0.72
+  },
+  {
+    "id": "cliente_032",
+    "n_compras_ultimos_30_dias": 12,
+    "hora_preferida": "noche",
+    "dia_semana_frecuente": "sabado",
+    "promedio_valor_compra": 94.7,
+    "recompra_productos": 0.82
+  },
+  {
+    "id": "cliente_033",
+    "n_compras_ultimos_30_dias": 27,
+    "hora_preferida": "tarde",
+    "dia_semana_frecuente": "lunes",
+    "promedio_valor_compra": 96.7,
+    "recompra_productos": 0.28
+  },
+  {
+    "id": "cliente_034",
+    "n_compras_ultimos_30_dias": 1,
+    "hora_preferida": "tarde",
+    "dia_semana_frecuente": "miercoles",
+    "promedio_valor_compra": 49.85,
+    "recompra_productos": 0.64
+  },
+  {
+    "id": "cliente_035",
+    "n_compras_ultimos_30_dias": 26,
+    "hora_preferida": "tarde",
+    "dia_semana_frecuente": "sabado",
+    "promedio_valor_compra": 83.38,
+    "recompra_productos": 0.47
+  },
+  {
+    "id": "cliente_036",
+    "n_compras_ultimos_30_dias": 26,
+    "hora_preferida": "mañana",
+    "dia_semana_frecuente": "sabado",
+    "promedio_valor_compra": 64.32,
+    "recompra_productos": 0.54
+  },
+  {
+    "id": "cliente_037",
+    "n_compras_ultimos_30_dias": 2,
+    "hora_preferida": "noche",
+    "dia_semana_frecuente": "lunes",
+    "promedio_valor_compra": 141.64,
+    "recompra_productos": 0.29
+  },
+  {
+    "id": "cliente_038",
+    "n_compras_ultimos_30_dias": 19,
+    "hora_preferida": "tarde",
+    "dia_semana_frecuente": "martes",
+    "promedio_valor_compra": 142.94,
+    "recompra_productos": 0.15
+  },
+  {
+    "id": "cliente_039",
+    "n_compras_ultimos_30_dias": 1,
+    "hora_preferida": "tarde",
+    "dia_semana_frecuente": "martes",
+    "promedio_valor_compra": 57.69,
+    "recompra_productos": 0.5
+  },
+  {
+    "id": "cliente_040",
+    "n_compras_ultimos_30_dias": 24,
+    "hora_preferida": "mañana",
+    "dia_semana_frecuente": "viernes",
+    "promedio_valor_compra": 195.53,
+    "recompra_productos": 0.49
+  },
+  {
+    "id": "cliente_041",
+    "n_compras_ultimos_30_dias": 26,
+    "hora_preferida": "noche",
+    "dia_semana_frecuente": "jueves",
+    "promedio_valor_compra": 126.75,
+    "recompra_productos": 0.95
+  },
+  {
+    "id": "cliente_042",
+    "n_compras_ultimos_30_dias": 18,
+    "hora_preferida": "mañana",
+    "dia_semana_frecuente": "miercoles",
+    "promedio_valor_compra": 52.58,
+    "recompra_productos": 0.86
+  },
+  {
+    "id": "cliente_043",
+    "n_compras_ultimos_30_dias": 20,
+    "hora_preferida": "mañana",
+    "dia_semana_frecuente": "martes",
+    "promedio_valor_compra": 37.87,
+    "recompra_productos": 0.23
+  },
+  {
+    "id": "cliente_044",
+    "n_compras_ultimos_30_dias": 16,
+    "hora_preferida": "mañana",
+    "dia_semana_frecuente": "domingo",
+    "promedio_valor_compra": 164.04,
+    "recompra_productos": 0.94
+  },
+  {
+    "id": "cliente_045",
+    "n_compras_ultimos_30_dias": 13,
+    "hora_preferida": "noche",
+    "dia_semana_frecuente": "martes",
+    "promedio_valor_compra": 180.22,
+    "recompra_productos": 0.86
+  },
+  {
+    "id": "cliente_046",
+    "n_compras_ultimos_30_dias": 12,
+    "hora_preferida": "mañana",
+    "dia_semana_frecuente": "martes",
+    "promedio_valor_compra": 188.68,
+    "recompra_productos": 0.98
+  },
+  {
+    "id": "cliente_047",
+    "n_compras_ultimos_30_dias": 12,
+    "hora_preferida": "mañana",
+    "dia_semana_frecuente": "jueves",
+    "promedio_valor_compra": 181.92,
+    "recompra_productos": 0.68
+  },
+  {
+    "id": "cliente_048",
+    "n_compras_ultimos_30_dias": 22,
+    "hora_preferida": "noche",
+    "dia_semana_frecuente": "domingo",
+    "promedio_valor_compra": 22.39,
+    "recompra_productos": 0.97
+  },
+  {
+    "id": "cliente_049",
+    "n_compras_ultimos_30_dias": 19,
+    "hora_preferida": "mañana",
+    "dia_semana_frecuente": "domingo",
+    "promedio_valor_compra": 46.23,
+    "recompra_productos": 0.36
+  },
+  {
+    "id": "cliente_050",
+    "n_compras_ultimos_30_dias": 20,
+    "hora_preferida": "tarde",
+    "dia_semana_frecuente": "domingo",
+    "promedio_valor_compra": 142.7,
+    "recompra_productos": 0.36
+  },
+  {
+    "id": "cliente_051",
+    "n_compras_ultimos_30_dias": 23,
+    "hora_preferida": "noche",
+    "dia_semana_frecuente": "viernes",
+    "promedio_valor_compra": 194.87,
+    "recompra_productos": 0.07
+  },
+  {
+    "id": "cliente_052",
+    "n_compras_ultimos_30_dias": 13,
+    "hora_preferida": "noche",
+    "dia_semana_frecuente": "jueves",
+    "promedio_valor_compra": 182.07,
+    "recompra_productos": 0.31
+  },
+  {
+    "id": "cliente_053",
+    "n_compras_ultimos_30_dias": 29,
+    "hora_preferida": "mañana",
+    "dia_semana_frecuente": "domingo",
+    "promedio_valor_compra": 12.96,
+    "recompra_productos": 0.79
+  },
+  {
+    "id": "cliente_054",
+    "n_compras_ultimos_30_dias": 15,
+    "hora_preferida": "tarde",
+    "dia_semana_frecuente": "miercoles",
+    "promedio_valor_compra": 89.73,
+    "recompra_productos": 0.13
+  },
+  {
+    "id": "cliente_055",
+    "n_compras_ultimos_30_dias": 10,
+    "hora_preferida": "tarde",
+    "dia_semana_frecuente": "viernes",
+    "promedio_valor_compra": 188.8,
+    "recompra_productos": 0.22
+  },
+  {
+    "id": "cliente_056",
+    "n_compras_ultimos_30_dias": 13,
+    "hora_preferida": "tarde",
+    "dia_semana_frecuente": "martes",
+    "promedio_valor_compra": 109.12,
+    "recompra_productos": 0.48
+  },
+  {
+    "id": "cliente_057",
+    "n_compras_ultimos_30_dias": 16,
+    "hora_preferida": "tarde",
+    "dia_semana_frecuente": "miercoles",
+    "promedio_valor_compra": 97.94,
+    "recompra_productos": 0.12
+  },
+  {
+    "id": "cliente_058",
+    "n_compras_ultimos_30_dias": 19,
+    "hora_preferida": "noche",
+    "dia_semana_frecuente": "martes",
+    "promedio_valor_compra": 152.95,
+    "recompra_productos": 0.26
+  },
+  {
+    "id": "cliente_059",
+    "n_compras_ultimos_30_dias": 27,
+    "hora_preferida": "tarde",
+    "dia_semana_frecuente": "domingo",
+    "promedio_valor_compra": 15.9,
+    "recompra_productos": 0.95
+  },
+  {
+    "id": "cliente_060",
+    "n_compras_ultimos_30_dias": 2,
+    "hora_preferida": "tarde",
+    "dia_semana_frecuente": "domingo",
+    "promedio_valor_compra": 134.95,
+    "recompra_productos": 0.69
+  },
+  {
+    "id": "cliente_061",
+    "n_compras_ultimos_30_dias": 18,
+    "hora_preferida": "tarde",
+    "dia_semana_frecuente": "martes",
+    "promedio_valor_compra": 194.46,
+    "recompra_productos": 0.49
+  },
+  {
+    "id": "cliente_062",
+    "n_compras_ultimos_30_dias": 8,
+    "hora_preferida": "tarde",
+    "dia_semana_frecuente": "martes",
+    "promedio_valor_compra": 32.51,
+    "recompra_productos": 0.98
+  },
+  {
+    "id": "cliente_063",
+    "n_compras_ultimos_30_dias": 9,
+    "hora_preferida": "mañana",
+    "dia_semana_frecuente": "sabado",
+    "promedio_valor_compra": 80.53,
+    "recompra_productos": 0.53
+  },
+  {
+    "id": "cliente_064",
+    "n_compras_ultimos_30_dias": 16,
+    "hora_preferida": "tarde",
+    "dia_semana_frecuente": "jueves",
+    "promedio_valor_compra": 155.57,
+    "recompra_productos": 0.74
+  },
+  {
+    "id": "cliente_065",
+    "n_compras_ultimos_30_dias": 13,
+    "hora_preferida": "mañana",
+    "dia_semana_frecuente": "martes",
+    "promedio_valor_compra": 153.49,
+    "recompra_productos": 0.92
+  },
+  {
+    "id": "cliente_066",
+    "n_compras_ultimos_30_dias": 7,
+    "hora_preferida": "mañana",
+    "dia_semana_frecuente": "sabado",
+    "promedio_valor_compra": 121.62,
+    "recompra_productos": 0.85
+  },
+  {
+    "id": "cliente_067",
+    "n_compras_ultimos_30_dias": 1,
+    "hora_preferida": "tarde",
+    "dia_semana_frecuente": "lunes",
+    "promedio_valor_compra": 187.9,
+    "recompra_productos": 0.96
+  },
+  {
+    "id": "cliente_068",
+    "n_compras_ultimos_30_dias": 9,
+    "hora_preferida": "mañana",
+    "dia_semana_frecuente": "miercoles",
+    "promedio_valor_compra": 36.52,
+    "recompra_productos": 0.2
+  },
+  {
+    "id": "cliente_069",
+    "n_compras_ultimos_30_dias": 13,
+    "hora_preferida": "noche",
+    "dia_semana_frecuente": "miercoles",
+    "promedio_valor_compra": 139.68,
+    "recompra_productos": 0.44
+  },
+  {
+    "id": "cliente_070",
+    "n_compras_ultimos_30_dias": 10,
+    "hora_preferida": "noche",
+    "dia_semana_frecuente": "miercoles",
+    "promedio_valor_compra": 97.72,
+    "recompra_productos": 0.31
+  },
+  {
+    "id": "cliente_071",
+    "n_compras_ultimos_30_dias": 19,
+    "hora_preferida": "noche",
+    "dia_semana_frecuente": "miercoles",
+    "promedio_valor_compra": 158.31,
+    "recompra_productos": 0.57
+  },
+  {
+    "id": "cliente_072",
+    "n_compras_ultimos_30_dias": 2,
+    "hora_preferida": "tarde",
+    "dia_semana_frecuente": "miercoles",
+    "promedio_valor_compra": 116.34,
+    "recompra_productos": 0.57
+  },
+  {
+    "id": "cliente_073",
+    "n_compras_ultimos_30_dias": 12,
+    "hora_preferida": "tarde",
+    "dia_semana_frecuente": "jueves",
+    "promedio_valor_compra": 190.03,
+    "recompra_productos": 0.57
+  },
+  {
+    "id": "cliente_074",
+    "n_compras_ultimos_30_dias": 14,
+    "hora_preferida": "noche",
+    "dia_semana_frecuente": "viernes",
+    "promedio_valor_compra": 105.49,
+    "recompra_productos": 0.03
+  },
+  {
+    "id": "cliente_075",
+    "n_compras_ultimos_30_dias": 9,
+    "hora_preferida": "tarde",
+    "dia_semana_frecuente": "domingo",
+    "promedio_valor_compra": 15.27,
+    "recompra_productos": 0.95
+  },
+  {
+    "id": "cliente_076",
+    "n_compras_ultimos_30_dias": 10,
+    "hora_preferida": "mañana",
+    "dia_semana_frecuente": "miercoles",
+    "promedio_valor_compra": 193.33,
+    "recompra_productos": 0.33
+  },
+  {
+    "id": "cliente_077",
+    "n_compras_ultimos_30_dias": 8,
+    "hora_preferida": "tarde",
+    "dia_semana_frecuente": "lunes",
+    "promedio_valor_compra": 156.78,
+    "recompra_productos": 0.9
+  },
+  {
+    "id": "cliente_078",
+    "n_compras_ultimos_30_dias": 18,
+    "hora_preferida": "mañana",
+    "dia_semana_frecuente": "lunes",
+    "promedio_valor_compra": 125.55,
+    "recompra_productos": 0.81
+  },
+  {
+    "id": "cliente_079",
+    "n_compras_ultimos_30_dias": 23,
+    "hora_preferida": "tarde",
+    "dia_semana_frecuente": "miercoles",
+    "promedio_valor_compra": 47.2,
+    "recompra_productos": 0.41
+  },
+  {
+    "id": "cliente_080",
+    "n_compras_ultimos_30_dias": 5,
+    "hora_preferida": "mañana",
+    "dia_semana_frecuente": "viernes",
+    "promedio_valor_compra": 130.64,
+    "recompra_productos": 0.25
+  },
+  {
+    "id": "cliente_081",
+    "n_compras_ultimos_30_dias": 27,
+    "hora_preferida": "mañana",
+    "dia_semana_frecuente": "domingo",
+    "promedio_valor_compra": 58.97,
+    "recompra_productos": 0.34
+  },
+  {
+    "id": "cliente_082",
+    "n_compras_ultimos_30_dias": 19,
+    "hora_preferida": "tarde",
+    "dia_semana_frecuente": "jueves",
+    "promedio_valor_compra": 118.42,
+    "recompra_productos": 0.51
+  },
+  {
+    "id": "cliente_083",
+    "n_compras_ultimos_30_dias": 24,
+    "hora_preferida": "tarde",
+    "dia_semana_frecuente": "miercoles",
+    "promedio_valor_compra": 36.19,
+    "recompra_productos": 0.25
+  },
+  {
+    "id": "cliente_084",
+    "n_compras_ultimos_30_dias": 28,
+    "hora_preferida": "noche",
+    "dia_semana_frecuente": "jueves",
+    "promedio_valor_compra": 16.79,
+    "recompra_productos": 0.75
+  },
+  {
+    "id": "cliente_085",
+    "n_compras_ultimos_30_dias": 30,
+    "hora_preferida": "tarde",
+    "dia_semana_frecuente": "martes",
+    "promedio_valor_compra": 32.69,
+    "recompra_productos": 0.74
+  },
+  {
+    "id": "cliente_086",
+    "n_compras_ultimos_30_dias": 28,
+    "hora_preferida": "mañana",
+    "dia_semana_frecuente": "lunes",
+    "promedio_valor_compra": 33.59,
+    "recompra_productos": 0.81
+  },
+  {
+    "id": "cliente_087",
+    "n_compras_ultimos_30_dias": 11,
+    "hora_preferida": "noche",
+    "dia_semana_frecuente": "lunes",
+    "promedio_valor_compra": 123.19,
+    "recompra_productos": 0.86
+  },
+  {
+    "id": "cliente_088",
+    "n_compras_ultimos_30_dias": 17,
+    "hora_preferida": "tarde",
+    "dia_semana_frecuente": "miercoles",
+    "promedio_valor_compra": 138.21,
+    "recompra_productos": 0.68
+  },
+  {
+    "id": "cliente_089",
+    "n_compras_ultimos_30_dias": 12,
+    "hora_preferida": "mañana",
+    "dia_semana_frecuente": "jueves",
+    "promedio_valor_compra": 117.48,
+    "recompra_productos": 0.85
+  },
+  {
+    "id": "cliente_090",
+    "n_compras_ultimos_30_dias": 24,
+    "hora_preferida": "tarde",
+    "dia_semana_frecuente": "jueves",
+    "promedio_valor_compra": 179.16,
+    "recompra_productos": 0.66
+  },
+  {
+    "id": "cliente_091",
+    "n_compras_ultimos_30_dias": 24,
+    "hora_preferida": "tarde",
+    "dia_semana_frecuente": "jueves",
+    "promedio_valor_compra": 44.33,
+    "recompra_productos": 0.18
+  },
+  {
+    "id": "cliente_092",
+    "n_compras_ultimos_30_dias": 15,
+    "hora_preferida": "mañana",
+    "dia_semana_frecuente": "martes",
+    "promedio_valor_compra": 32.46,
+    "recompra_productos": 0.54
+  },
+  {
+    "id": "cliente_093",
+    "n_compras_ultimos_30_dias": 21,
+    "hora_preferida": "tarde",
+    "dia_semana_frecuente": "domingo",
+    "promedio_valor_compra": 23.25,
+    "recompra_productos": 0.94
+  },
+  {
+    "id": "cliente_094",
+    "n_compras_ultimos_30_dias": 20,
+    "hora_preferida": "tarde",
+    "dia_semana_frecuente": "domingo",
+    "promedio_valor_compra": 142.16,
+    "recompra_productos": 0.49
+  },
+  {
+    "id": "cliente_095",
+    "n_compras_ultimos_30_dias": 14,
+    "hora_preferida": "noche",
+    "dia_semana_frecuente": "martes",
+    "promedio_valor_compra": 37.14,
+    "recompra_productos": 0.9
+  },
+  {
+    "id": "cliente_096",
+    "n_compras_ultimos_30_dias": 17,
+    "hora_preferida": "noche",
+    "dia_semana_frecuente": "viernes",
+    "promedio_valor_compra": 130.51,
+    "recompra_productos": 0.15
+  },
+  {
+    "id": "cliente_097",
+    "n_compras_ultimos_30_dias": 24,
+    "hora_preferida": "mañana",
+    "dia_semana_frecuente": "martes",
+    "promedio_valor_compra": 19.91,
+    "recompra_productos": 0.63
+  },
+  {
+    "id": "cliente_098",
+    "n_compras_ultimos_30_dias": 22,
+    "hora_preferida": "noche",
+    "dia_semana_frecuente": "viernes",
+    "promedio_valor_compra": 20.46,
+    "recompra_productos": 0.83
+  },
+  {
+    "id": "cliente_099",
+    "n_compras_ultimos_30_dias": 4,
+    "hora_preferida": "mañana",
+    "dia_semana_frecuente": "viernes",
+    "promedio_valor_compra": 137.42,
+    "recompra_productos": 0.41
+  }
+]

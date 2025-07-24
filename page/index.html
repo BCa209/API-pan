@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Análisis Apriori</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>🛒 Análisis de Reglas de Asociación</h1>
+        
+        <div class="input-group">
+            <label for="apiUrl">URL del API:</label>
+            <input type="text" id="apiUrl" value="http://127.0.0.1:8000/apriori/resultados/16-07-2025?periodo=dia" placeholder="Ingresa la URL del endpoint">
+        </div>
+
+        <button onclick="obtenerResultadosApriori()">
+            <span id="buttonText">Obtener Resultados</span>
+            <span id="loadingSpinner" class="loading" style="display: none;"></span>
+        </button>
+        
+        <button onclick="probarConexion()">Probar Conexión</button>
+        
+        <button onclick="limpiarResultados()">Limpiar Resultados</button>
+
+        <div id="status" class="status" style="display: none;"></div>
+        
+        <div id="results" class="results">
+            <div id="predictionsContainer"></div>
+        </div>
+        
+        <div id="error" class="error" style="display: none;"></div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
